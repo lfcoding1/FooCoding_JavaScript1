@@ -31,17 +31,8 @@ console.log(o3);  // yes o3 has been changed//
 
 // 17. type of//
 let bar = 42;  
-console.log(typeof typeof bar); 
-console.log(typeof bar);
+console.log(typeof typeof bar); //returns 'string' because the word number is a string?//
+console.log(typeof bar); //returns 'number' because the value of bar is 42 which is a number//
 console.log(bar);
-
-// 42 is a primitive (ie because it is a number).  so you cannot get a typeof of it usually as it has no property.
-//but in order to get a typeof, it is temporarily coerced into being an object.
-//so then it can return a value ie string (line 34) or number (line 35)
-//the created object is then removed into the garbage.
-
-
-
-
 
 
