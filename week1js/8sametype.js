@@ -18,7 +18,9 @@ var type_c = typeof x;
 var type_d = typeof null;
 
 if( type_a == type_b | type_c | type_d)
-{console.log('SAME TYPE');}
+{console.log('SAME TYPE');} 
 else
 {console.log('DIFFERENT TYPE');}
 
+/*this is not completely correct, there should be an if loop for every comparison, not 'just type a' being
+compared to each of the other types.  You could also use  a for loop*/

@@ -1,5 +1,6 @@
 // 12. empty object //
-const myObject = {}
+let obj = {};
+console.log(obj);
 
 // 13/ and 14. teachers //
 const myTeachers = {
@@ -8,5 +9,8 @@ const myTeachers = {
     "Victor": "CSS", 
     "Rasmus": "Javascript", 
     "Johann": "Javascript"
-};
+}
 console.log(myTeachers);
+
+
+

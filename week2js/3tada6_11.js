@@ -1,14 +1,16 @@
-//6. vehicle //
-var code = (a === 2) ? "car":"motorbike";
-var color = "blue";
+//6. vehicle 
+
+
+var vehicle = ["motorbike", "caravan", "bike", "scooter", "car", "truck"];
 var age = (age === 1) ? "new":"used";
-function vehicleType(color, age, code){
- console.log("A " + color + " " + age + " " + code);
+
+console.log(vehicle[5]);
+function vehicleType(color, age, vehicle){
+ console.log("A " + color + " " + age + " " + vehicle);
 }
-vehicleType(color, age, code);
+vehicleType("pink", "used", "car");
 
 //7. list of vehicles//
-var vehicle = ["motorbike", "caravan", "bike", "scooter", "car", "truck"];
 console.log(vehicle);
 
 //8 3rd element//
@@ -23,9 +25,18 @@ function getVehicle(color, index, age){
 }
 getVehicle("Green", 2, vehicle[3]);
 
+/*try this code:
+function vehicles(color, code, age) {
+    if (age > 1){
+        console.log( 'a ' + color + ' used ' +list[code])
+    } else if (age <= 1){
+        console.log('a ' + color + ' new ' + list[code])
+    }
+}
+console.log("vehicle('green', 3, 1) ===> " + vehicle("green", 3, 1));
+vehicles("green", 3, 1);*/
+
 //10. advertisement//
-
-
 
 function garage(){
     var advertisement = ("At Amazing Joe's Garage, we service: ");
