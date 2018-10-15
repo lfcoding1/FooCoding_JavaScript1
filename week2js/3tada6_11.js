@@ -2,13 +2,17 @@
 
 
 var vehicle = ["motorbike", "caravan", "bike", "scooter", "car", "truck"];
-var age = (age === 1) ? "new":"used";
+var age;
 
 console.log(vehicle[5]);
-function vehicleType(color, age, vehicle){
- console.log("A " + color + " " + age + " " + vehicle);
+
+function vehicleList(color, index, age){
+for(i =0; i<vehicle.length; i++)
+if(index === i ){
+    (age => 2) ? console.log("A " + color + " new " + age) : console.log("A " + color + " used " + age);
 }
-vehicleType("pink", "used", "car");
+}
+vehicleList("pink", 0, vehicle[1]);
 
 //7. list of vehicles//
 console.log(vehicle);
@@ -18,23 +22,14 @@ console.log(vehicle[2]);
 
 //9.function vehicle//
 function getVehicle(color, index, age){
-    for(i =0; i<vehicleType.length; i++)
+    for(i =0; i<vehicle.length; i++)
     if(index === i ){
         (age < 1) ? console.log("A " + color + " new " + age) : console.log("A " + color + " used " + age);
     }
 }
 getVehicle("Green", 2, vehicle[3]);
 
-/*try this code:
-function vehicles(color, code, age) {
-    if (age > 1){
-        console.log( 'a ' + color + ' used ' +list[code])
-    } else if (age <= 1){
-        console.log('a ' + color + ' new ' + list[code])
-    }
-}
-console.log("vehicle('green', 3, 1) ===> " + vehicle("green", 3, 1));
-vehicles("green", 3, 1);*/
+
 
 //10. advertisement//
 

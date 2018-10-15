@@ -48,7 +48,7 @@ o2.foo = 'chicken';
 console.log(o2);
 console.log(o3);  // yes o3 has been changed//
 /* this is the same as question 15, o2 and o3 both point to the same box. so when you change the box 
-contents, both o2 and o3 change because they are both pointing to that box.*/node
+contents, both o2 and o3 change because they are both pointing to that box.*/
 
 // 17. type of//
 let bar = 42;  
