@@ -19,8 +19,6 @@ ie they both point to the same box, with the box being the [] stuff
 note: x does not equal y in this case because they do not point to the same object.
 ie: their objects look the same, but they are two different boxes, whilst z is only pointing to y's box,
 it is not actually making a whole new box for z */
-/*THIS CODE DOESN'T OUTPUT THE RIGHT INFO.  THE LAST SHOULD BE FALSE */
-
 
 /*function compare(a, b) {
     var i = a.length;
